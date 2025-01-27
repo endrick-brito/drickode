@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.menu-lateral{
+    width: 60px;
+    height: 100%;
+    background-color: #202020;
+    padding: 40px 0 40px;
+    box-shadow: 3px 0 0 #1cd61cd7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.menu-lateral:hover{
+    width: 300px;
+    .logo{
+        display: flex;
+    }
+}
+
+.logo{
+    display: none;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo img{
+    width: 75%;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu-lateral ul{
+    height: 100%;
+    list-style: none;
+}
+
+.menu-lateral .item-menu{
+    transition: .4s;
+}
+
+.menu-lateral .item-menu:hover{
+    background-color: #1cd61cd7;
+}
+
+.menu-lateral .item-menu a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.menu-lateral .item-menu a .txt-link{
+    margin-left: 40px;
+}
+
+.menu-lateral .item-menu a .icon i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
